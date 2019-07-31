@@ -1,0 +1,1046 @@
+create table Schedule(BATCH varchar2(100),
+            LG varchar2(100),
+            SCH_DATE date,
+            SLOT varchar2(20),
+            COURSE_ID varchar2(150),
+            COURSE_NAME varchar2(200),
+            FACULTY varchar2(200),
+            primary key(BATCH,LG,SCH_DATE,SLOT));
+            
+            
+                        
+insert into Schedule values('CHN35','MJ215','30/JAN/2017','A','ILP01','Induction:Welcome to TCS/ILP','ILP Head');
+insert into Schedule values('CHN35','MJ215','30/JAN/2017','B','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN35','MJ215','30/JAN/2017','C','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN35','MJ215','30/JAN/2017','D','IRA53209','IRA1','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','31/JAN/2017','A','ISU01','ISU1 - TCS Overview','ISU Mentor');
+insert into Schedule values('CHN35','MJ215','31/JAN/2017','B','TCF01','TCS Corporate Functions','ILP Team');
+insert into Schedule values('CHN35','MJ215','31/JAN/2017','C','7408','iSecurity','Swaminadhan');
+insert into Schedule values('CHN35','MJ215','31/JAN/2017','D','HSE01','HSE-Safety+video','HSE Team');
+
+insert into Schedule values('CHN35','MJ215','01/FEB/2017','A','ILT','Curriculum and delivery walk through','SF');
+insert into Schedule values('CHN35','MJ215','01/FEB/2017','B','IND01','HR Induction-Part 1','HR');
+insert into Schedule values('CHN35','MJ215','01/FEB/2017','C','52405','Professional Transformation-Induction to BizS and V&B','Issac');
+insert into Schedule values('CHN35','MJ215','01/FEB/2017','D','52402','WS Diagnostics','Issac');
+
+insert into Schedule values('CHN35','MJ215','02/FEB/2017','A','52374','UI-Self Study','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/FEB/2017','B','52374','UI-Self Study','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/FEB/2017','C','52374','UI-Self Study','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/FEB/2017','D','10447','TCoC','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','03/FEB/2017','A','52367','Core Java Basics-IT Applications Overview ,Problem Solving approach,OOP Basics','Rasmi');
+insert into Schedule values('CHN35','MJ215','03/FEB/2017','B','52367','Core Java Part 1-Numeric Computations','Rasmi');
+insert into Schedule values('CHN35','MJ215','03/FEB/2017','C','52401','SS 1-Diagnostics','Issac');
+insert into Schedule values('CHN35','MJ215','03/FEB/2017','D','52401','SS 1-Diagnostics','Issac');
+
+insert into Schedule values('CHN35','MJ215','06/FEB/2017','A','52367','Core Java Part 1-Classes and Objects','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/FEB/2017','B','52367','Core Java Part 1-Classes and Objects','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/FEB/2017','C','52367','Core Java Part 1-Self Study-Classes and Objects','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/FEB/2017','D','52367','Core Java Part 1-Conditional Operations and Packages','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','07/FEB/2017','A','52367','Core Java Part 1-Arrays and Iterations','Rasmi');
+insert into Schedule values('CHN35','MJ215','07/FEB/2017','B','52367','Core Java Part 1-Arrays and Iterations','Rasmi');
+insert into Schedule values('CHN35','MJ215','07/FEB/2017','C','52367','Core Java Part 1-Arrays and Iterations','Rasmi');
+insert into Schedule values('CHN35','MJ215','07/FEB/2017','D','52367','Core Java Part 1-Arrays and Iterations','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','08/FEB/2017','A','52368','Core Java Part 2-Enum,Stringbuilder,Stringbuffer','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/FEB/2017','B','52368','Core Java Part 2-Inheritance','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/FEB/2017','C','52368','Core Java Part 2-Polymorphism','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/FEB/2017','D','52409','BizConnect 1','Issac');
+
+insert into Schedule values('CHN35','MJ215','09/FEB/2017','A','52368','Core Java Part 2-Exception Handling','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/FEB/2017','B','52368','Core Java Part 2-Class Relationships','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/FEB/2017','C','52368','Core Java Part 2-Class Relationships','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/FEB/2017','D','52368','Core Java Part 2-Collections','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','10/FEB/2017','A','52368','Core Java Part 2-List','Rasmi');
+insert into Schedule values('CHN35','MJ215','10/FEB/2017','B','52368','Core Java Part 2-List','Rasmi');
+insert into Schedule values('CHN35','MJ215','10/FEB/2017','C','52368','Core Java Part 2-Set','Rasmi');
+insert into Schedule values('CHN35','MJ215','10/FEB/2017','D','52402','WS:Lotus Notes&IM&WS:Writing at work:agenda, status report&MoM','Issac');
+
+insert into Schedule values('CHN35','MJ215','13/FEB/2017','A','52368','Core Java Part 2-Set','Rasmi');
+insert into Schedule values('CHN35','MJ215','13/FEB/2017','B','52368','Core Java Part 2-Map','Rasmi');
+insert into Schedule values('CHN35','MJ215','13/FEB/2017','C','52368','Core Java Part 2-Map','Rasmi');
+insert into Schedule values('CHN35','MJ215','13/FEB/2017','D','52401','SS:Conversation skills,Avoiding errors&SS:Business speech acts','Issac');
+
+insert into Schedule values('CHN35','MJ215','14/FEB/2017','A','52368','Core Java Part 2-File I/O','Rasmi');
+insert into Schedule values('CHN35','MJ215','14/FEB/2017','B','52368','Core Java Part 2-File I/O','Rasmi');
+insert into Schedule values('CHN35','MJ215','14/FEB/2017','C','52368','Core Java Part 2-Combined Hands On','Rasmi');
+insert into Schedule values('CHN35','MJ215','14/FEB/2017','D','7408','iSecurity WBT','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','15/FEB/2017','A','52369','Information Management-Basics and normalization,select statements','Rasmi');
+insert into Schedule values('CHN35','MJ215','15/FEB/2017','B','52369','Information Management-SQL-DDL,DML,Sequences','Rasmi');
+insert into Schedule values('CHN35','MJ215','15/FEB/2017','C','52369','Information Management-Joins and Sub Queries','Rasmi');
+insert into Schedule values('CHN35','MJ215','15/FEB/2017','D','52403','PG-Telephone Etiquette','Issac');
+
+insert into Schedule values('CHN35','MJ215','16/FEB/2017','A','52369','Information Management-JDBC Overview','Rasmi');
+insert into Schedule values('CHN35','MJ215','16/FEB/2017','B','52369','Information Management-JDBC Insert cases','Rasmi');
+insert into Schedule values('CHN35','MJ215','16/FEB/2017','C','52369','Information Management-JDBC Select cases','Rasmi');
+insert into Schedule values('CHN35','MJ215','16/FEB/2017','D','52369','Information Management-JDBC Update Cases','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','17/FEB/2017','A','52369','Information Management-JDBC Delete cases','Rasmi');
+insert into Schedule values('CHN35','MJ215','17/FEB/2017','B','52369','Core Skills Assessment-Core Java,IM and JDBC-Code based and Quiz','Rasmi');
+insert into Schedule values('CHN35','MJ215','17/FEB/2017','C','52369','Core Skills Assessment-Core Java,IM and JDBC-Code based and Quiz','Rasmi');
+insert into Schedule values('CHN35','MJ215','17/FEB/2017','D','6852','Software Security Assurance','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','20/FEB/2017','A','52370','Web Server and Servlets-Course Overview,Session 1','Rasmi');
+insert into Schedule values('CHN35','MJ215','20/FEB/2017','B','52370','Web Server and Servlets-Session 2','Rasmi');
+insert into Schedule values('CHN35','MJ215','20/FEB/2017','C','52370','Web Server and Servlets-Session 3','Rasmi');
+insert into Schedule values('CHN35','MJ215','20/FEB/2017','D','52370','Web Server and Servlets-Hands on','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','21/FEB/2017','A','52370','Web Server and Servlets-Session 4','Rasmi');
+insert into Schedule values('CHN35','MJ215','21/FEB/2017','B','52370','Web Server and Servlets-Session 5','Rasmi');
+insert into Schedule values('CHN35','MJ215','21/FEB/2017','C','52144','Introduction to Processes@TCS','Rasmi');
+insert into Schedule values('CHN35','MJ215','21/FEB/2017','D','52144','Project Lifecycle Processes','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','22/FEB/2017','A','52370','Web Server and Servlets-Session 6','Rasmi');
+insert into Schedule values('CHN35','MJ215','22/FEB/2017','B','52370','Web Server and Servlets-Session 7','Rasmi');
+insert into Schedule values('CHN35','MJ215','22/FEB/2017','C','52370','Web Server and Servlets-Session 8','Rasmi');
+insert into Schedule values('CHN35','MJ215','22/FEB/2017','D','ISU01','ISU 2','ISU Mentor');
+
+insert into Schedule values('CHN35','MJ215','23/FEB/2017','A','52370','JSP-Basic Syntax, Implicit Objects in JSP','Rasmi');
+insert into Schedule values('CHN35','MJ215','23/FEB/2017','B','52370','JSP-Handling Multiple JSP','Rasmi');
+insert into Schedule values('CHN35','MJ215','23/FEB/2017','C','52370','JSP-JSP Usebean Tag,JSP Single Thread Model','Rasmi');
+insert into Schedule values('CHN35','MJ215','23/FEB/2017','D','52939','PRA viva-PS,IM,Web','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','24/FEB/2017','A','52370','Servlets, JSP Assessment+MCQ','Rasmi');
+insert into Schedule values('CHN35','MJ215','24/FEB/2017','B','52370','Servlets, JSP Assessment+MCQ','Rasmi');
+insert into Schedule values('CHN35','MJ215','24/FEB/2017','C','52409','BizConnect 2','Issac');
+insert into Schedule values('CHN35','MJ215','24/FEB/2017','D','5822','Agile Introduction(WBTs)-self study','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','27/FEB/2017','A','5822','Agile Introduction(WBTs)-self study','Rasmi');
+insert into Schedule values('CHN35','MJ215','27/FEB/2017','B','5822','Agile Introduction(WBTs)-self study','Rasmi');
+insert into Schedule values('CHN35','MJ215','27/FEB/2017','C','5822','PSU,Case Study Overview and Preparing Agile Artifacts','Rasmi');
+insert into Schedule values('CHN35','MJ215','27/FEB/2017','D','52404','Team Work Skills-1','Issac');
+
+insert into Schedule values('CHN35','MJ215','28/FEB/2017','A','52144','Knowledge Management','Rasmi');
+insert into Schedule values('CHN35','MJ215','28/FEB/2017','B','52402','PSR and MOM','Issac');
+insert into Schedule values('CHN35','MJ215','28/FEB/2017','C','52402','PSR and MOM','Issac');
+insert into Schedule values('CHN35','MJ215','28/FEB/2017','D','7408','iSecurity-Quiz','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','01/MAR/2017','A','52404','Team Work Skills–2','Issac');
+insert into Schedule values('CHN35','MJ215','01/MAR/2017','B','52144','Introduction to Financial planning','Rasmi');
+insert into Schedule values('CHN35','MJ215','01/MAR/2017','C','52401','SS:Audience orientation','Issac');
+insert into Schedule values('CHN35','MJ215','01/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','02/MAR/2017','A','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/MAR/2017','B','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/MAR/2017','C','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','02/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','03/MAR/2017','A','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','03/MAR/2017','B','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','03/MAR/2017','C','PCNT01','Project construct(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','03/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','06/MAR/2017','A','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/MAR/2017','B','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/MAR/2017','C','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','06/MAR/2017','D','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','07/MAR/2017','A','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','07/MAR/2017','B','PCNT01','SS:Audience orientation','Issac');
+insert into Schedule values('CHN35','MJ215','07/MAR/2017','C','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+insert into Schedule values('CHN35','MJ215','07/MAR/2017','D','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','08/MAR/2017','A','52144','KYT-HSE','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/MAR/2017','B','52144','KYT-Fire and Safety','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/MAR/2017','C','52144','KYT-Cloud Computing','Rasmi');
+insert into Schedule values('CHN35','MJ215','08/MAR/2017','D','52144','KYT-Agile','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','09/MAR/2017','A','PCNT01','Change Request(Sprint 1)-Defect Fixing by other group','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/MAR/2017','B','PCNT01','Change Request(Sprint 1)-Defect Fixing by other group','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/MAR/2017','C','52144','KYT-Introduction to Financial planning','Rasmi');
+insert into Schedule values('CHN35','MJ215','09/MAR/2017','D','L101','Learning Opportunities','Rasmi');
+
+insert into Schedule values('CHN35','MJ215','10/MAR/2017','A','IND01','HR-induction-Part 2+HR quiz','HR');
+insert into Schedule values('CHN35','MJ215','10/MAR/2017','B','RMG01','RMG Session','RMGTeam');
+insert into Schedule values('CHN35','MJ215','10/MAR/2017','C','R0','Release','Rasmi');
+insert into Schedule values('CHN35','MJ215','10/MAR/2017','D','R0','Release','Rasmi');
+
+
+
+insert into Schedule values('CHN35','MJ216','30/JAN/2017','A','ILP01','Induction: Welcome to TCS / ILP','ILP Head' );
+insert into Schedule values('CHN35','MJ216','30/JAN/2017','B','ILP01','Induction','ILPHead');
+insert into Schedule values('CHN35','MJ216','30/JAN/2017','C','ILP01','Induction','ILPHead');
+insert into Schedule values('CHN35','MJ216','30/JAN/2017','D','IRA53209','IRA','Technical Lead');
+
+insert into Schedule values('CHN35','MJ216','31/JAN/2017','A','ISU01','ISU1 - TCS Overview:','ISU Mentor');
+insert into Schedule values('CHN35','MJ216','31/JAN/2017','B','TCF01','TCS Corporate Functions','ILP team');
+insert into Schedule values('CHN35','MJ216','31/JAN/2017','C','7408','iSecurity','Swaminadhan');
+insert into Schedule values('CHN35','MJ216','31/JAN/2017','D','HSE01','HSE - Safety + video','HSE Team');
+
+insert into Schedule values('CHN35','MJ216','01/FEB/2017','A','IND01','HR Induction - Part 1','HR');
+insert into Schedule values('CHN35','MJ216','01/FEB/2017','B','ILT','Curriculum and delivery walk through','SF');
+insert into Schedule values('CHN35','MJ216','01/FEB/2017','C','52405','Professional Transformation-Induction to BizS and V&B (Part 1)','Kurinji');
+insert into Schedule values('CHN35','MJ216','01/FEB/2017','D','52405','Professional Transformation-Induction to BizSkills and V&B (Part 2)','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','02/FEB/2017','A','52367','Core Java Basics-IT Applications Overview Problem Solving approach, OOP Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/FEB/2017','B','52367','Core Java Basics-Numeric computations','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/FEB/2017','C','52367','Core Java Basics-Classes and Objects','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/FEB/2017','D','52367','Core Java Basics-Classes and Objects','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','03/FEB/2017','A','52367','Core Java Basics-Classes and Objects','Lakshmi');
+insert into Schedule values('CHN35','MJ216','03/FEB/2017','B','52367','Core Java Basics-Classes and Objects','Lakshmi');
+insert into Schedule values('CHN35','MJ216','03/FEB/2017','C','52401','SS 1-Diagnostics','Kurinji');
+insert into Schedule values('CHN35','MJ216','03/FEB/2017','D','52401','SS-Diagnostics','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','06/FEB/2017','A','52367','Core Java Basics-Conditional Operations','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/FEB/2017','B','52367','Core Java Basics-Arrays and Iterations','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/FEB/2017','C','52368','Core Java Basics-String and Stringbuilder','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/FEB/2017','D','52368','Core Java Basics-Inheritance','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','07/FEB/2017','A','52368','Core Java Basics-Inheritance','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/FEB/2017','B','52368','Core Java Basics-Polymorphism','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/FEB/2017','C','52368','Core Java Basics-Exception Handling-Theory','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/FEB/2017','D','52368','Core Java Basics-Class Relationships (Videos)','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','08/FEB/2017','A','52368','Core Java Basics-Collections-ArrayList','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/FEB/2017','B','52368','Core Java Basics-Collections-ArrayList','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/FEB/2017','C','52368','Core Java Basics-Collections-ArrayList','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/FEB/2017','D','52934','Core Java  Basics-iASCERT Assessment','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','09/FEB/2017','A','52368','Core Java Basics Feedback and Remedial identification','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/FEB/2017','B','52368','Core Java Intermediate-Collections-ArrayList','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/FEB/2017','C','52368','Core Java Intermediate-Collections-ArrayList','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/FEB/2017','D','52368','Core Java Intermediate-Collections-ArrayList','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','10/FEB/2017','A','52368','Core Java Intermediate-Exception Handling/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/FEB/2017','B','52368','Core Java Intermediate-Exception Handling/CS Remedial ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/FEB/2017','C','52368','Core Java Intermediate-File I/O/CS Remedial ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/FEB/2017','D','52403','PG 1-Smart dressing & Common courtesies','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','13/FEB/2017','A','52368','Core Java Intermediate-File I/O/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/FEB/2017','B','52369','Information Management Basics-Normalization,Connecting to server from client/CS Remedial ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/FEB/2017','C','52369','Information Management Basics-SQL Concepts on DDL,SQL Data Types/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/FEB/2017','D','52401','SS: Phonetics,Stress,Accent,Intonation','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','14/FEB/2017','A','52369','Information Management Basics-DRL including aggregate functions,Joins/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/FEB/2017','B','52369','Information Management Basics-Joins, Sub Queries/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/FEB/2017','C','52369','Information Management Basics-DCL,TCL/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/FEB/2017','D','ISU01','ISU 2','ISU Mentor');
+
+insert into Schedule values('CHN35','MJ216','15/FEB/2017','A','52369','Information Management Basics-Primary Key Generation Techniques/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/FEB/2017','B','52369','Information Management Basics-XML,XSD,XML Namespace/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/FEB/2017','C','52369','JDBC-JDBC Architecture,JDBC Drivers/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/FEB/2017','D','52402','WS2-Characteristics of Writing','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','16/FEB/2017','A','52369','JDBC-Important Interfaces and Classes in JDBC API,JDBC steps using Type 4 Driver,Exception Handling in JDBC/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/FEB/2017','B','52369','JDBC-Inserting Data,Reading Data/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/FEB/2017','C','52369','JDBC-Reading data/CS Remedial','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/FEB/2017','D','52404','Team Work Skills–1','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','17/FEB/2017','A','52369','JDBC-Reading data/CS Remedial ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/FEB/2017','B','52369','JDBC-Update and delete data/CS Remedial Closure/LAP identification','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/FEB/2017','C','52935','IM JDBC Assessment+Quiz','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/FEB/2017','D','10447','TCoC','Self-Study');
+
+insert into Schedule values('CHN35','MJ216','20/FEB/2017','A','56368','Core Java Advanced-Collections-Set','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/FEB/2017','B','56368','Core Java Advanced-Collections - Set','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/FEB/2017','C','56368','Core Java Advanced-Collections - Map','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/FEB/2017','D','7408','iSecurity WBT','Self-Study');
+
+insert into Schedule values('CHN35','MJ216','21/FEB/2017','A','52368','Java Trainee Talk-PS2 topics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/FEB/2017','B','52368','Java Trainee Talk-PS2 topics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/FEB/2017','C','52370','SVN and synchronization(ILT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/FEB/2017','D','52370','SVN and synchronization(ILT)','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','22/FEB/2017','A','52370','Web Server and Servlets-Course Overview,Session 1','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/FEB/2017','B','52370','Web Server and Servlets-Session 2','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/FEB/2017','C','52370','Web Server and Servlets - Session 3','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/FEB/2017','D','52401','SS: Introduction to presentation skills','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','23/FEB/2017','A','52370','Web Server and Servlets-Session 4','Lakshmi');
+insert into Schedule values('CHN35','MJ216','23/FEB/2017','B','52370','Web Server and Servlets-Session 5','Lakshmi');
+insert into Schedule values('CHN35','MJ216','23/FEB/2017','C','52370','Web Server and Servlets-Session 6','Lakshmi');
+insert into Schedule values('CHN35','MJ216','23/FEB/2017','D','6852','Software Security Assurance','Self Study');
+
+insert into Schedule values('CHN35','MJ216','24/FEB/2017','A','52370','Web Server and Servlets-Session 7','Lakshmi');
+insert into Schedule values('CHN35','MJ216','24/FEB/2017','B','52370','Web Server and Servlets-Session 8','Lakshmi');
+insert into Schedule values('CHN35','MJ216','24/FEB/2017','C','52370','JSP-Basic Syntax, Implicit Objects in JSP','Lakshmi');
+insert into Schedule values('CHN35','MJ216','24/FEB/2017','D','52144','Introduction to Processes@TCS ','Self Study');
+
+insert into Schedule values('CHN35','MJ216','27/FEB/2017','A','52370','JSP-Handling Multiple JSP','Lakshmi');
+insert into Schedule values('CHN35','MJ216','27/FEB/2017','B','52370','JSP-JSP Exception Handling','Lakshmi');
+insert into Schedule values('CHN35','MJ216','27/FEB/2017','C','52370','JSP-JSP Usebean Tag','Lakshmi');
+insert into Schedule values('CHN35','MJ216','27/FEB/2017','D','ISU01','ISU 3','ISU Mentor');
+
+insert into Schedule values('CHN35','MJ216','28/FEB/2017','A','52370','Servlets,JSP Assessment+MCQ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','28/FEB/2017','B','52370','Servlets,JSP Assessment+MCQ','Lakshmi');
+insert into Schedule values('CHN35','MJ216','28/FEB/2017','C','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','28/FEB/2017','D','52144','Project Lifecycle Processes','Self-Study');
+
+insert into Schedule values('CHN35','MJ216','01/MAR/2017','A','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','01/MAR/2017','B','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','01/MAR/2017','C','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','01/MAR/2017','D','52402','WS3 - Mechanics of Writing','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','02/MAR/2017','A','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/MAR/2017','B','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/MAR/2017','C','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','02/MAR/2017','D','52401','SS: Conversational Skills','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','03/MAR/2017','A','52370','JSON and API Basics','Lakshmi');
+insert into Schedule values('CHN35','MJ216','03/MAR/2017','B','52370','JSON and API  Quiz','Lakshmi');
+insert into Schedule values('CHN35','MJ216','03/MAR/2017','C','52939','PRA Viva - PS, IM, Web','Lakshmi');
+insert into Schedule values('CHN35','MJ216','03/MAR/2017','D','52409','BizConnect-1','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','06/MAR/2017','A','62889','Pre Game-Introduction session+Capsules 1-3','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/MAR/2017','B','62889','Pre Game-Group Formation+Case Study overview','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/MAR/2017','C','62889','Pre Game-Case Study Overview contd+Capsules 4-6','Lakshmi');
+insert into Schedule values('CHN35','MJ216','06/MAR/2017','D','52402','WS4-Mind Your Language','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','07/MAR/2017','A','SP628','Sprint 1:Sprint Planning Part 1*PO','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/MAR/2017','B','SP628','Sprint 1:Sprint Planning Part 2*DT','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/MAR/2017','C','SP628','Sprint 1:Sprint Planning Part 2*DT','Lakshmi');
+insert into Schedule values('CHN35','MJ216','07/MAR/2017','D','52402','WS5-Email Etiquette&WS6-Mail Application and IM Module','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','08/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/MAR/2017','C','SP628','Sprint 1:Sprint Execution','Lakshmi');
+insert into Schedule values('CHN35','MJ216','08/MAR/2017','D','52401','SS: Listening skills & SS: Audience Orientation','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','09/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','09/MAR/2017','D','52402','WS7-Writing at Work- PSR and MoM','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','10/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','10/MAR/2017','D','52403','PG 2- Telephone etiquette','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','13/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)+Mid Sprint Review','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)+Mid Sprint Review','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','13/MAR/2017','D','L101','Learning Opportunities','Lakshmi');
+
+insert into Schedule values('CHN35','MJ216','14/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','14/MAR/2017','D','52404','Team Work Skills – 2','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','15/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','15/MAR/2017','D','52401','SS:Business Speech Acts','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','16/MAR/2017','A','SP628','Sprint 1:Sprint Review (demo)','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/MAR/2017','B','SP628','Sprint 1:Sprint Review (demo) contd.','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/MAR/2017','C','SP628','Sprint 1:Sprint Retrospective+
+Capsule 7+Agile Quiz','Lakshmi');
+insert into Schedule values('CHN35','MJ216','16/MAR/2017','D','52401','SS:Customer Service','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','17/MAR/2017','A','H5990','Hibernate-Overview,Hibernate Environment Setup','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/MAR/2017','B','H5990','Hibernate-Hibernate Basic API','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/MAR/2017','C','52144','Knowledge Management','Lakshmi');
+insert into Schedule values('CHN35','MJ216','17/MAR/2017','D','52409','BizConnect-2','Kurinji');
+
+insert into Schedule values('CHN35','MJ216','20/MAR/2017','A','H5990','Hibernate-Hibernate Basic API','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/MAR/2017','B','H5990','Hibernate-Hibernate Basic API','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/MAR/2017','C','H5990','Hibernate-Hibernate Basic O/R Mapping and CRUD','Lakshmi');
+insert into Schedule values('CHN35','MJ216','20/MAR/2017','D','H5990','Hibernate-Hibernate Basic O/R Mapping and CRUD','Lakshmi');				
+
+insert into Schedule values('CHN35','MJ216','21/MAR/2017','A','H5990','Hibernate-Hibernate Object States','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/MAR/2017','B','H5990','Hibernate-Hibernate Object States, HQL','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/MAR/2017','C','H5990','Hibernate-Hibernate Object States, HQL','Lakshmi');
+insert into Schedule values('CHN35','MJ216','21/MAR/2017','D','7408','iSecurity Quiz','Lakshmi');				
+
+insert into Schedule values('CHN35','MJ216','22/MAR/2017','A','H5990','Change Request-Applying Hibernate Layer','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/MAR/2017','B','H5990','Change Request-Applying Hibernate Layer','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/MAR/2017','C','H5990','Change Request-Applying Hibernate Layer','Lakshmi');
+insert into Schedule values('CHN35','MJ216','22/MAR/2017','D','H5990','Change Request-Applying Hibernate Layer','Lakshmi');				
+
+insert into Schedule values('CHN35','MJ216','23/MAR/2017','A','52144','Introduction to Financial planning','HR');
+insert into Schedule values('CHN35','MJ216','23/MAR/2017','B','52144','CR Review','HR');
+insert into Schedule values('CHN35','MJ216','23/MAR/2017','C','IND01','HR-induction-Part 2+HR quiz ','HR');
+insert into Schedule values('CHN35','MJ216','23/MAR/2017','D','RMG01','RMG Session','RMG Team');	
+	
+insert into Schedule values('CHN35','MJ216','24/MAR/2017','A','R0','Release','HR');
+insert into Schedule values('CHN35','MJ216','24/MAR/2017','B','R0','Release','HR');
+insert into Schedule values('CHN35','MJ216','24/MAR/2017','C','R0','Release','HR');
+insert into Schedule values('CHN35','MJ216','24/MAR/2017','D','R0','Release','RMG Team');	
+
+
+
+
+insert into Schedule values('CHN35','MJ217','30/JAN/2017','A','ILP01','Induction:Welcome to TCS/ILP','ILP Head');
+insert into Schedule values('CHN35','MJ217','30/JAN/2017','B','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN35','MJ217','30/JAN/2017','C','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN35','MJ217','30/JAN/2017','D','IRA53209','IRA','Muthu');
+
+insert into Schedule values('CHN35','MJ217','31/JAN/2017','A','ISU01','ISU1 - TCS Overview','ISU Mentor');
+insert into Schedule values('CHN35','MJ217','31/JAN/2017','B','TCF01','TCS Corporate Functions','ILP Team');
+insert into Schedule values('CHN35','MJ217','31/JAN/2017','C','7408','iSecurity','Swaminadhan');
+insert into Schedule values('CHN35','MJ217','31/JAN/2017','D','HSE01','HSE-Safety+video','HSE Team');
+
+insert into Schedule values('CHN35','MJ217','01/FEB/2017','A','IND01','HR Induction - Part 1','HR');
+insert into Schedule values('CHN35','MJ217','01/FEB/2017','B','ILT','Curruculum and delivery walk through - Introduction to all modules and assessment guidelines (ILT by respective SFs)','SF');
+insert into Schedule values('CHN35','MJ217','01/FEB/2017','C','52405','Professional Transformation - Induction to BizS and V&B (Part 1)','Ishitha');
+insert into Schedule values('CHN35','MJ217','01/FEB/2017','D','52402','Professional Transformation - Induction to BizS and V&B (Part 2)','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','02/FEB/2017','A','52374','Problem Solving part 1 & 2 -  Course Overview,,Introduction to IT applications ','Muthu');
+insert into Schedule values('CHN35','MJ217','02/FEB/2017','B','52374','Problem Solving - Need of Programming and Object oriented approach ','Muthu');
+insert into Schedule values('CHN35','MJ217','02/FEB/2017','C','52374','Introduction to JAVA, JVM, JDK ','Muthu');
+insert into Schedule values('CHN35','MJ217','02/FEB/2017','D','10447','WS 1 - Diagnostics ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','03/FEB/2017','A','52367','Operators, Variables and Numeric Computation in Java','Muthu');
+insert into Schedule values('CHN35','MJ217','03/FEB/2017','B','52367','Operators, Variables and Numeric Computation in Java','Muthu');
+insert into Schedule values('CHN35','MJ217','03/FEB/2017','C','52401','Introduction to class in java,access specifiers, this and static in Java','Muthu');
+insert into Schedule values('CHN35','MJ217','03/FEB/2017','D','52401','Introduction to class in java,access specifiers, this and static in Java','Muthu');
+
+insert into Schedule values('CHN35','MJ217','06/FEB/2017','A','52367','Introduction to class in java,access specifiers, this and static in Java','Muthu');
+insert into Schedule values('CHN35','MJ217','06/FEB/2017','B','52367','Introduction to class in java,access specifiers, this and static in Java','Muthu');
+insert into Schedule values('CHN35','MJ217','06/FEB/2017','C','52367','SS 1 - Diagnostics','Ishitha');
+insert into Schedule values('CHN35','MJ217','06/FEB/2017','D','52367','SS 1 - Diagnostics','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','07/FEB/2017','A','52367','Java packages and import ','Muthu');
+insert into Schedule values('CHN35','MJ217','07/FEB/2017','B','52367','Java - conditional operations','Muthu');
+insert into Schedule values('CHN35','MJ217','07/FEB/2017','C','52367','Java - conditional operations','Muthu');
+insert into Schedule values('CHN35','MJ217','07/FEB/2017','D','52367','PG 1 - Smart dressing, Common courtesies, First impressions, Meetings ','Muthu');
+
+insert into Schedule values('CHN35','MJ217','08/FEB/2017','A','52368','Java basic iterations ','Muthu');
+insert into Schedule values('CHN35','MJ217','08/FEB/2017','B','52368','Java basic iterations ','Muthu');
+insert into Schedule values('CHN35','MJ217','08/FEB/2017','C','52368','Java - advanced iterations and arrays','Muthu');
+insert into Schedule values('CHN35','MJ217','08/FEB/2017','D','52368','Java - advanced iterations and arrays','Muthu');
+
+insert into Schedule values('CHN35','MJ217','09/FEB/2017','A','52368','PS1 - Code Assessment Test  + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','09/FEB/2017','B','52368','Problem Solving part 2 - Stringbuffer, Stringbuilder, Enum','Muthu');
+insert into Schedule values('CHN35','MJ217','09/FEB/2017','C','52368','Problem Solving part 2 - Inheritance and Polymorphism','Muthu');
+insert into Schedule values('CHN35','MJ217','09/FEB/2017','D','52368','Problem Solving part 2 - Inheritance and Polymorphism','Muthu');
+
+insert into Schedule values('CHN35','MJ217','10/FEB/2017','A','52368','Problem Solving part 2 - Abstract Class, Interface and Final Class','Muthu');
+insert into Schedule values('CHN35','MJ217','10/FEB/2017','B','52368','Problem Solving part 2 - Abstract Class, Interface and Final Class','Muthu');
+insert into Schedule values('CHN35','MJ217','10/FEB/2017','C','52368','Problem Solving part 2 - Exception Handling','Muthu');
+insert into Schedule values('CHN35','MJ217','10/FEB/2017','D','52402','SS 2  - Phonetics, Stress , Accent,  Intonation ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','13/FEB/2017','A','52368','Problem Solving part 2 - Exception Handling','Muthu');
+insert into Schedule values('CHN35','MJ217','13/FEB/2017','B','52368','Problem Solving part 2 - Class Relationships & Trainee Talk Groups and topics identification','Muthu');
+insert into Schedule values('CHN35','MJ217','13/FEB/2017','C','52368','Problem Solving part 2 - Class Relationships','Muthu');
+insert into Schedule values('CHN35','MJ217','13/FEB/2017','D','52401','Problem Solving part 2 - Collections Framework','Muthu');
+
+insert into Schedule values('CHN35','MJ217','14/FEB/2017','A','52368','Problem Solving part 2 - Collections - List','Muthu');
+insert into Schedule values('CHN35','MJ217','14/FEB/2017','B','52368','Problem Solving part 2 - Collections - List','Muthu');
+insert into Schedule values('CHN35','MJ217','14/FEB/2017','C','52368','Problem Solving part 2 - Collections - List','Muthu');
+insert into Schedule values('CHN35','MJ217','14/FEB/2017','D','7408','ISU2 - Growth; Customer centricty & what Certainty means','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','15/FEB/2017','A','52369','Problem Solving part 2 - Collections - Set','Muthu');
+insert into Schedule values('CHN35','MJ217','15/FEB/2017','B','52369','Problem Solving part 2 -  Collections - Set','Muthu');
+insert into Schedule values('CHN35','MJ217','15/FEB/2017','C','52369','Problem Solving part 2 - Collections - Map','Muthu');
+insert into Schedule values('CHN35','MJ217','15/FEB/2017','D','52403','TCoC','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','16/FEB/2017','A','52369','Problem Solving part 2 - Generics','Muthu');
+insert into Schedule values('CHN35','MJ217','16/FEB/2017','B','52369','Problem Solving part 2 - Generics','Muthu');
+insert into Schedule values('CHN35','MJ217','16/FEB/2017','C','52369','Problem Solving part 2 - File I/O ','Muthu');
+insert into Schedule values('CHN35','MJ217','16/FEB/2017','D','52369','Team Work Skills – 1','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','17/FEB/2017','A','52369','Problem Solving part 2 - File I/O ','Muthu');
+insert into Schedule values('CHN35','MJ217','17/FEB/2017','B','52369','Problem Solving part 2 - File I/O ','Muthu');
+insert into Schedule values('CHN35','MJ217','17/FEB/2017','C','52369','Java Programming Trainee Talk','Ishitha');
+insert into Schedule values('CHN35','MJ217','17/FEB/2017','D','6852','Java Programming Trainee Talk','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','20/FEB/2017','A','52370','PS2 - Code Assessment Test  + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','20/FEB/2017','B','52370','IM Basics - Course Overview, Introduction to Database,Types of Database','Muthu');
+insert into Schedule values('CHN35','MJ217','20/FEB/2017','C','52370','IM Basics - Normalization,Connecting to server from client','Muthu');
+insert into Schedule values('CHN35','MJ217','20/FEB/2017','D','52370','WS2 - Characteristics of Writing','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','21/FEB/2017','A','52370','IM Basics - SQL Concepts on DDL,SQL Data Types','Muthu');
+insert into Schedule values('CHN35','MJ217','21/FEB/2017','B','52370','IM Basics - SQL DML,Constraints ','Muthu');
+insert into Schedule values('CHN35','MJ217','21/FEB/2017','C','52144','IM Basics - DRL including aggregate functions,Joins','Muthu');
+insert into Schedule values('CHN35','MJ217','21/FEB/2017','D','52144','IM Basics - Joins, Sub Queries','Muthu');
+
+insert into Schedule values('CHN35','MJ217','22/FEB/2017','A','52370','IM Basics - DCL , TCL','Muthu');
+insert into Schedule values('CHN35','MJ217','22/FEB/2017','B','52370','IM Basics - Primary Key Generation Techniques (Sequence, NextVal etc)','Muthu');
+insert into Schedule values('CHN35','MJ217','22/FEB/2017','C','52370','IM Basics - XML , XSD, XML Namespace','Muthu');
+insert into Schedule values('CHN35','MJ217','22/FEB/2017','D','52901','SS 3 - Introduction to presentation skills','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','23/FEB/2017','A','52370','JDBC -  What is JDBC, JDBC Architecture, JDBC Drivers','Muthu');
+insert into Schedule values('CHN35','MJ217','23/FEB/2017','B','52370','JDBC -  Important Interfaces and Classes in JDBC API, JDBC,
+ Exception Handling in JDBC','Muthu');
+insert into Schedule values('CHN35','MJ217','23/FEB/2017','C','52370','JDBC -  Inserting Data, Reading Data','Muthu');
+insert into Schedule values('CHN35','MJ217','23/FEB/2017','D','52402','WS3 - Mechanics of Writing ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','24/FEB/2017','A','52370','JDBC -  Inserting Data, Reading Data','Muthu');
+insert into Schedule values('CHN35','MJ217','24/FEB/2017','B','52370','JDBC - Reading data','Muthu');
+insert into Schedule values('CHN35','MJ217','24/FEB/2017','C','52370','JDBC - Update and delete data','Muthu');
+insert into Schedule values('CHN35','MJ217','24/FEB/2017','D','5822','ISU3- Trainee’s Role in Growth – Different Project Types ','Muthu');
+
+insert into Schedule values('CHN35','MJ217','27/FEB/2017','A','5822','PS2 + IM JDBC Practice','Muthu');
+insert into Schedule values('CHN35','MJ217','27/FEB/2017','B','5822','PS2 + IM JDBC Practice','Muthu');
+insert into Schedule values('CHN35','MJ217','27/FEB/2017','C','5822','IM JDBC Code Assessment + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','27/FEB/2017','D','52404','SS 4 - Conversational Skills -Small Talk, Asking Questions','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','28/FEB/2017','A','H5990','Hibernate - Overview, Hibernate Environment Setup','Muthu');
+insert into Schedule values('CHN35','MJ217','28/FEB/2017','B','H5990','Hibernate - Hibernate Basic API','Muthu');
+insert into Schedule values('CHN35','MJ217','28/FEB/2017','C','H5990','Hibernate - Hibernate Basic API','Muthu');
+insert into Schedule values('CHN35','MJ217','28/FEB/2017','D','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+
+insert into Schedule values('CHN35','MJ217','01/MAR/2017','A','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+insert into Schedule values('CHN35','MJ217','01/MAR/2017','B','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+insert into Schedule values('CHN35','MJ217','01/MAR/2017','C','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+insert into Schedule values('CHN35','MJ217','01/MAR/2017','D','52403','PG 2- Telephone etiquette','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','02/MAR/2017','A','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+insert into Schedule values('CHN35','MJ217','02/MAR/2017','B','H5990','Hibernate - Hibernate Basic O/R Mapping and CRUD','Muthu');
+insert into Schedule values('CHN35','MJ217','02/MAR/2017','C','H5990','Hibernate - Hibernate Object States','Muthu');
+insert into Schedule values('CHN35','MJ217','02/MAR/2017','D','H5990','Hibernate - Hibernate Object States, HQL','Muthu');
+
+insert into Schedule values('CHN35','MJ217','03/MAR/2017','A','H5990','Hibernate - Hibernate Object States, HQL','Muthu');
+insert into Schedule values('CHN35','MJ217','03/MAR/2017','B','H5990','Hibernate - Hibernate Object States, HQL','Muthu');
+insert into Schedule values('CHN35','MJ217','03/MAR/2017','C','H5990','Hibernate Assessment - Code + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','03/MAR/2017','D','52402','WS4 - Mind Your Language','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','06/MAR/2017','A','52370','Web Server and Servlets -  Course Overview, Session 1 + UI Presentation Group Formation + Sharing UI Presentation Topics','Muthu');
+insert into Schedule values('CHN35','MJ217','06/MAR/2017','B','52370','Web Server and Servlets - Session 2','Muthu');
+insert into Schedule values('CHN35','MJ217','06/MAR/2017','C','52370','Web Server and Servlets - Session 3','Muthu');
+insert into Schedule values('CHN35','MJ217','06/MAR/2017','D','52402','WS5 - Email Etiquette','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','07/MAR/2017','A','52370','Web Server and Servlets - Session 4','Muthu');
+insert into Schedule values('CHN35','MJ217','07/MAR/2017','B','52370','Web Server and Servlets - Session 5','Muthu');
+insert into Schedule values('CHN35','MJ217','07/MAR/2017','C','52370','Web Server and Servlets - Session 6','Muthu');
+insert into Schedule values('CHN35','MJ217','07/MAR/2017','D','52144','Knowledge Management','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','08/MAR/2017','A','52144','Web Server and Servlets - Session 7','Muthu');
+insert into Schedule values('CHN35','MJ217','08/MAR/2017','B','52144','Web Server and Servlets - Session 8','Muthu');
+insert into Schedule values('CHN35','MJ217','08/MAR/2017','C','52144','JSP - JSP Basic Syntax','Muthu');
+insert into Schedule values('CHN35','MJ217','08/MAR/2017','D','52144','SS 5 - Listening skills ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','09/MAR/2017','A','52370','JSP - Implicit Objects in JSP','Muthu');
+insert into Schedule values('CHN35','MJ217','09/MAR/2017','B','52370','JSP - Handling Multiple JSP','Muthu');
+insert into Schedule values('CHN35','MJ217','09/MAR/2017','C','52370','JSP - JSP Exception Handling','Muthu');
+insert into Schedule values('CHN35','MJ217','09/MAR/2017','D','52370','JSP - JSP Usebean Tag,JSP Single Thread Model','Muthu');
+
+insert into Schedule values('CHN35','MJ217','10/MAR/2017','A','52370','JSP - Hands On','Muthu');
+insert into Schedule values('CHN35','MJ217','10/MAR/2017','B','52370','JSP - Hands On','Muthu');
+insert into Schedule values('CHN35','MJ217','10/MAR/2017','C','52370','JSP - Hands On','Muthu');
+insert into Schedule values('CHN35','MJ217','10/MAR/2017','D','52370','Web Module - Quiz','Muthu');
+
+insert into Schedule values('CHN35','MJ217','13/MAR/2017','A','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','13/MAR/2017','B','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','13/MAR/2017','C','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','13/MAR/2017','D','L101','Learning Opportunities','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','14/MAR/2017','A','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','14/MAR/2017','B','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','14/MAR/2017','C','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','14/MAR/2017','D','52144','Introduction to Processes @ TCS (this will cover EPW and iQMS)','Nithya');
+
+insert into Schedule values('CHN35','MJ217','15/MAR/2017','A','52370','Web - Mini Case Study','Muthu');
+insert into Schedule values('CHN35','MJ217','15/MAR/2017','B','52370','Web Module Code Assessment','Muthu');
+insert into Schedule values('CHN35','MJ217','15/MAR/2017','C','52370','Web Module Code Assessment','Muthu');
+insert into Schedule values('CHN35','MJ217','15/MAR/2017','D','52144','Project Lifecycle Processes (this will cover IPMS)','Muthu');
+
+insert into Schedule values('CHN35','MJ217','16/MAR/2017','A','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','16/MAR/2017','B','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','16/MAR/2017','C','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','16/MAR/2017','D','52402','WS 6 -  Lotus Notes & IM','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','17/MAR/2017','A','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','17/MAR/2017','B','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','17/MAR/2017','C','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','17/MAR/2017','D','52401','SS 6  - Business speech acts ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','20/MAR/2017','A','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','20/MAR/2017','B','52370','JSON and API Basics','Muthu');
+insert into Schedule values('CHN35','MJ217','20/MAR/2017','C','52370','JSON and API  Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','20/MAR/2017','D','6852','Software Security Assurance ','Self-Study');
+
+insert into Schedule values('CHN35','MJ217','21/MAR/2017','A','SP368','Spring Framework introduction ','Muthu');
+insert into Schedule values('CHN35','MJ217','21/MAR/2017','B','SP368','Spring Framework - Spring Architecture,Spring Architecture','Muthu');
+insert into Schedule values('CHN35','MJ217','21/MAR/2017','C','SP368','Spring Framework - Setting up Spring Environment','Muthu');
+insert into Schedule values('CHN35','MJ217','21/MAR/2017','D','52404','Team Work Skills- 2','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','22/MAR/2017','A','SP368','Spring Framework - Inversion of Control (IOC)','Muthu');
+insert into Schedule values('CHN35','MJ217','22/MAR/2017','B','SP368','Spring Framework - Dependency Injection','Muthu');
+insert into Schedule values('CHN35','MJ217','22/MAR/2017','C','SP368','Spring Framework - Bean Factory,Spring Container','Muthu');
+insert into Schedule values('CHN35','MJ217','22/MAR/2017','D','52402','WS 7 - Writing at work: PSR and MOM ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','23/MAR/2017','A','SP368','Spring Framework - Introduction to Spring MVC,Features of Spring MVC,Spring MVC configurations','Muthu');
+insert into Schedule values('CHN35','MJ217','23/MAR/2017','B','SP368','Spring MVC - Hands On','Muthu');
+insert into Schedule values('CHN35','MJ217','23/MAR/2017','C','SP368','Spring MVC - Hands On','Muthu');
+insert into Schedule values('CHN35','MJ217','23/MAR/2017','D','7408','iSecurity awareness + Quiz','Muthu');
+
+insert into Schedule values('CHN35','MJ217','24/MAR/2017','A','SP368','Spring Framework - AOP','Muthu');
+insert into Schedule values('CHN35','MJ217','24/MAR/2017','B','SP368','Spring Framework - AOP','Muthu');
+insert into Schedule values('CHN35','MJ217','24/MAR/2017','C','SP368','Spring Framework - Data integration Layer,Spring – JDBC Integration','Muthu');
+insert into Schedule values('CHN35','MJ217','24/MAR/2017','D','SP368','Spring Framework - Data integration Layer,Spring – JDBC Integration','Muthu');
+
+insert into Schedule values('CHN35','MJ217','27/MAR/2017','A','SP368','Spring Hibernate Integration ','Muthu');
+insert into Schedule values('CHN35','MJ217','27/MAR/2017','B','SP368','Spring Hibernate Integration ','Muthu');
+insert into Schedule values('CHN35','MJ217','27/MAR/2017','C','SP368','Spring Hibernate Integration ','Muthu');
+insert into Schedule values('CHN35','MJ217','27/MAR/2017','D','SP368','Spring Hibernate Integration ','Muthu');
+
+insert into Schedule values('CHN35','MJ217','28/MAR/2017','A','SP368','Spring Hibernate Integration ','Muthu');
+insert into Schedule values('CHN35','MJ217','28/MAR/2017','B','SP368','Spring Assessment - Code + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','28/MAR/2017','C','SP368','Spring Assessment - Code + Quiz','Muthu');
+insert into Schedule values('CHN35','MJ217','28/MAR/2017','D','52401','SS 7 – Conversation skills – Discourse markers','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','29/MAR/2017','A','5822','Agile Introduction (WBTs) - self study','Muthu');
+insert into Schedule values('CHN35','MJ217','29/MAR/2017','B','5822','Agile Introduction (WBTs) - self study','Muthu');
+insert into Schedule values('CHN35','MJ217','29/MAR/2017','C','5822','PSU, Case Study Overview and Preparing Agile Artifacts ','Muthu');
+insert into Schedule values('CHN35','MJ217','29/MAR/2017','D','52401','SS 8 - Business Speech Acts ','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','30/MAR/2017','A','52370','SVN and synchronization (ILT)','Muthu');
+insert into Schedule values('CHN35','MJ217','30/MAR/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','30/MAR/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','30/MAR/2017','D','ISU01','ISU4 - Living the Values: Illustrations and experiences.','Ishitha');
+
+insert into Schedule values('CHN35','MJ217','31/MAR/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','31/MAR/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','31/MAR/2017','C','52939','PRA Viva Assessment (one on one - PS, IM and Web Module) ','Muthu');
+insert into Schedule values('CHN35','MJ217','31/MAR/2017','D','52939','PRA Viva Assessment (one on one - PS, IM and Web Module) ','Muthu');
+
+insert into Schedule values('CHN35','MJ217','03/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','03/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','03/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','03/APRIL/2017','D','52939','PRA Code Assessment - Spring + Hibernate','Muthu');
+
+insert into Schedule values('CHN35','MJ217','04/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','04/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','04/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','04/APRIL/2017','D','52401','SS 9 - Customer Service','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','05/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','05/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','05/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','05/APRIL/2017','D','52402','WS 8 - Total recall & Exit test ','Muthu');
+
+
+insert into Schedule values('CHN35','MJ217','06/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','06/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','06/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','06/APRIL/2017','D','PCNT01','Project construct (Sprint 1)','Muthu');
+
+
+insert into Schedule values('CHN35','MJ217','07/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','07/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','07/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','07/APRIL/2017','D','52403','PG 3 -  Dining etiquette','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','10/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','10/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','10/APRIL/2017','C','52402','PSR and MOM','Ishitha');
+insert into Schedule values('CHN35','MJ217','10/APRIL/2017','D','52402','PSR and MOM','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','11/APRIL/2017','A','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','11/APRIL/2017','B','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','11/APRIL/2017','C','PCNT01','Project construct (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','11/APRIL/2017','D','52404','Team Work Skills 3','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','12/APRIL/2017','A','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','12/APRIL/2017','B','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','12/APRIL/2017','C','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','12/APRIL/2017','D','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+
+
+insert into Schedule values('CHN35','MJ217','13/APRIL/2017','A','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','13/APRIL/2017','B','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','13/APRIL/2017','C','PCNT01','Project construct - Internal Integration and Testing (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','13/APRIL/2017','D','52144','Introduction to Financial Planning (WBT)','Muthu');
+
+
+insert into Schedule values('CHN35','MJ217','14/APRIL/2017','A','PCNT01','Construct Internal Review','Muthu');
+insert into Schedule values('CHN35','MJ217','14/APRIL/2017','B','INSP','Project presentation and Final inspection including SSA check','Muthu');
+insert into Schedule values('CHN35','MJ217','14/APRIL/2017','C','INSP','Project presentation and Final inspection including SSA check','Muthu');
+insert into Schedule values('CHN35','MJ217','14/APRIL/2017','D','IND01','HR- induction - Part 2  + HR quiz ','HR');
+
+
+insert into Schedule values('CHN35','MJ217','17/APRIL/2017','A','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','17/APRIL/2017','B','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','17/APRIL/2017','C','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','17/APRIL/2017','D','52404','Team Work Skills 4','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','18/APRIL/2017','A','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','18/APRIL/2017','B','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','18/APRIL/2017','C','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','18/APRIL/2017','D','52403','PG 4 -Culture and Diversity','Ishitha');
+
+
+insert into Schedule values('CHN35','MJ217','19/APRIL/2017','A','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','19/APRIL/2017','B','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','19/APRIL/2017','C','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','19/APRIL/2017','D','PCNT01','Change Request (Sprint 1)','Muthu');
+
+
+insert into Schedule values('CHN35','MJ217','20/APRIL/2017','A','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','20/APRIL/2017','B','PCNT01','Change Request (Sprint 1)','Muthu');
+insert into Schedule values('CHN35','MJ217','20/APRIL/2017','C','PCNT01','CR Review ','Muthu');
+insert into Schedule values('CHN35','MJ217','20/APRIL/2017','D','RMG01','RMG Session','RMG Team');
+
+
+insert into Schedule values('CHN35','MJ217','21/APRIL/2017','A','R0','Release','Muthu');
+insert into Schedule values('CHN35','MJ217','21/APRIL/2017','B','R0','Release','Muthu');
+insert into Schedule values('CHN35','MJ217','21/APRIL/2017','C','R0','Release','Muthu');
+insert into Schedule values('CHN35','MJ217','21/APRIL/2017','D','R0','Release','Muthu');
+
+
+
+
+
+insert into Schedule values('CHN36','MJ218','06/FEB/2017','A','ILP01','Induction:Welcome to TCS/ILP','ILP Head');
+insert into Schedule values('CHN36','MJ218','06/FEB/2017','B','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN36','MJ218','06/FEB/2017','C','ILP01','Induction','ILP Head');
+insert into Schedule values('CHN36','MJ218','06/FEB/2017','D','IRA53209','IRA1','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','07/FEB/2017','A','ISU01','ISU1 - TCS Overview','ISU Mentor');
+insert into Schedule values('CHN36','MJ218','07/FEB/2017','B','TCF01','TCS Corporate Functions','ILP Team');
+insert into Schedule values('CHN36','MJ218','07/FEB/2017','C','7408','iSecurity','Swaminadhan');
+insert into Schedule values('CHN36','MJ218','07/FEB/2017','D','HSE01','HSE-Safety+video','HSE Team');
+
+insert into Schedule values('CHN36','MJ218','08/FEB/2017','A','ILT','Curriculum and delivery walk through','SF');
+insert into Schedule values('CHN36','MJ218','08/FEB/2017','B','IND01','HR Induction-Part 1','HR');
+insert into Schedule values('CHN36','MJ218','08/FEB/2017','C','52405','Professional Transformation-Induction to BizS and V&B','Kurinji');
+insert into Schedule values('CHN36','MJ218','08/FEB/2017','D','52402','WS Diagnostics','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','09/FEB/2017','A','52374','UI-Self Study','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/FEB/2017','B','52374','UI-Self Study','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/FEB/2017','C','52374','UI-Self Study','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/FEB/2017','D','10447','TCoC','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','10/FEB/2017','A','52367','Core Java Basics-IT Applications Overview ,Problem Solving approach,OOP Basics','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','10/FEB/2017','B','52367','Core Java Part 1-Numeric Computations','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','10/FEB/2017','C','52401','SS 1-Diagnostics','Kurinji');
+insert into Schedule values('CHN36','MJ218','10/FEB/2017','D','52401','SS 1-Diagnostics','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','13/FEB/2017','A','52367','Core Java Part 1-Classes and Objects','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/FEB/2017','B','52367','Core Java Part 1-Classes and Objects','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/FEB/2017','C','52367','Core Java Part 1-Self Study-Classes and Objects','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/FEB/2017','D','52367','Core Java Part 1-Conditional Operations and Packages','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','14/FEB/2017','A','52367','Core Java Part 1-Arrays and Iterations','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','14/FEB/2017','B','52367','Core Java Part 1-Arrays and Iterations','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','14/FEB/2017','C','52367','Core Java Part 1-Arrays and Iterations','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','14/FEB/2017','D','52367','Core Java Part 1-Arrays and Iterations','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','15/FEB/2017','A','52368','Core Java Part 2-Enum,Stringbuilder,Stringbuffer','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/FEB/2017','B','52368','Core Java Part 2-Inheritance','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/FEB/2017','C','52368','Core Java Part 2-Polymorphism','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/FEB/2017','D','52409','BizConnect 1','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','16/FEB/2017','A','52368','Core Java Part 2-Exception Handling','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/FEB/2017','B','52368','Core Java Part 2-Class Relationships','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/FEB/2017','C','52368','Core Java Part 2-Class Relationships','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/FEB/2017','D','52368','Core Java Part 2-Collections','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','17/FEB/2017','A','52368','Core Java Part 2-List','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','17/FEB/2017','B','52368','Core Java Part 2-List','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','17/FEB/2017','C','52368','Core Java Part 2-Set','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','17/FEB/2017','D','52402','WS:Lotus Notes&IM&WS:Writing at work:agenda, status report&MoM','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','20/FEB/2017','A','52368','Core Java Part 2-Set','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','20/FEB/2017','B','52368','Core Java Part 2-Map','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','20/FEB/2017','C','52368','Core Java Part 2-Map','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','20/FEB/2017','D','52401','SS:Conversation skills,Avoiding errors&SS:Business speech acts','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','21/FEB/2017','A','52368','Core Java Part 2-File I/O','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','21/FEB/2017','B','52368','Core Java Part 2-File I/O','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','21/FEB/2017','C','52368','Core Java Part 2-Combined Hands On','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','21/FEB/2017','D','7408','iSecurity WBT','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','22/FEB/2017','A','52369','Information Management-Basics and normalization,select statements','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','22/FEB/2017','B','52369','Information Management-SQL-DDL,DML,Sequences','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','22/FEB/2017','C','52369','Information Management-Joins and Sub Queries','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','22/FEB/2017','D','52403','PG-Telephone Etiquette','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','23/FEB/2017','A','52369','Information Management-JDBC Overview','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','23/FEB/2017','B','52369','Information Management-JDBC Insert cases','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','23/FEB/2017','C','52369','Information Management-JDBC Select cases','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','23/FEB/2017','D','52369','Information Management-JDBC Update Cases','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','24/FEB/2017','A','52369','Information Management-JDBC Delete cases','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','24/FEB/2017','B','52369','Core Skills Assessment-Core Java,IM and JDBC-Code based and Quiz','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','24/FEB/2017','C','52369','Core Skills Assessment-Core Java,IM and JDBC-Code based and Quiz','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','24/FEB/2017','D','6852','Software Security Assurance','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','27/FEB/2017','A','52370','Web Server and Servlets-Course Overview,Session 1','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','27/FEB/2017','B','52370','Web Server and Servlets-Session 2','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','27/FEB/2017','C','52370','Web Server and Servlets-Session 3','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','27/FEB/2017','D','52370','Web Server and Servlets-Hands on','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','28/FEB/2017','A','52370','Web Server and Servlets-Session 4','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','28/FEB/2017','B','52370','Web Server and Servlets-Session 5','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','28/FEB/2017','C','52144','Introduction to Processes@TCS','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','28/FEB/2017','D','52144','Project Lifecycle Processes','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','01/MAR/2017','A','52370','Web Server and Servlets-Session 6','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','01/MAR/2017','B','52370','Web Server and Servlets-Session 7','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','01/MAR/2017','C','52370','Web Server and Servlets-Session 8','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','01/MAR/2017','D','ISU01','ISU 2','ISU Mentor');
+
+insert into Schedule values('CHN36','MJ218','02/MAR/2017','A','52370','JSP-Basic Syntax, Implicit Objects in JSP','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','02/MAR/2017','B','52370','JSP-Handling Multiple JSP','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','02/MAR/2017','C','52370','JSP-JSP Usebean Tag,JSP Single Thread Model','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','02/MAR/2017','D','52939','PRA viva-PS,IM,Web','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','03/MAR/2017','A','52370','Servlets, JSP Assessment+MCQ','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','03/MAR/2017','B','52370','Servlets, JSP Assessment+MCQ','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','03/MAR/2017','C','52409','BizConnect 2','Kurinji');
+insert into Schedule values('CHN36','MJ218','03/MAR/2017','D','5822','Agile Introduction(WBTs)-self study','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','06/MAR/2017','A','5822','Agile Introduction(WBTs)-self study','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','06/MAR/2017','B','5822','Agile Introduction(WBTs)-self study','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','06/MAR/2017','C','5822','PSU,Case Study Overview and Preparing Agile Artifacts','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','06/MAR/2017','D','52404','Team Work Skills-1','Kurinji');
+
+insert into Schedule values('CHN36','MJ218','07/MAR/2017','A','52144','Knowledge Management','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','07/MAR/2017','B','52402','PSR and MOM','Kurinji');
+insert into Schedule values('CHN36','MJ218','07/MAR/2017','C','52402','PSR and MOM','Kurinji');
+insert into Schedule values('CHN36','MJ218','07/MAR/2017','D','7408','iSecurity-Quiz','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','08/MAR/2017','A','52404','Team Work Skills–2','Kurinji');
+insert into Schedule values('CHN36','MJ218','08/MAR/2017','B','52144','Introduction to Financial planning','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','08/MAR/2017','C','52401','SS:Audience orientation','Kurinji');
+insert into Schedule values('CHN36','MJ218','08/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','09/MAR/2017','A','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/MAR/2017','B','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/MAR/2017','C','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','09/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','10/MAR/2017','A','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','10/MAR/2017','B','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','10/MAR/2017','C','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','10/MAR/2017','D','PCNT01','Project construct(Sprint 1)','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','13/MAR/2017','A','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/MAR/2017','B','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/MAR/2017','C','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','13/MAR/2017','D','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','14/MAR/2017','A','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','14/MAR/2017','B','52401','SS:Audience orientation','Kurinji');
+insert into Schedule values('CHN36','MJ218','14/MAR/2017','C','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','14/MAR/2017','D','PCNT01','Project construct-Internal Integration and Testing(Sprint 1)','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','15/MAR/2017','A','52144','KYT-HSE','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/MAR/2017','B','52144','KYT-Fire and Safety','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/MAR/2017','C','52144','KYT-Cloud Computing','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','15/MAR/2017','D','52144','KYT-Agile','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','16/MAR/2017','A','PCNT01','Change Request(Sprint 1)-Defect Fixing by other group','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/MAR/2017','B','PCNT01','Change Request(Sprint 1)-Defect Fixing by other group','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/MAR/2017','C','52144','KYT-Introduction to Financial planning','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','16/MAR/2017','D','L101','Learning Opportunities','Nagalakshmi');
+
+insert into Schedule values('CHN36','MJ218','17/MAR/2017','A','IND01','HR-induction-Part 2+HR quiz','HR');
+insert into Schedule values('CHN36','MJ218','17/MAR/2017','B','RMG01','RMG Session','RMG Team');
+insert into Schedule values('CHN36','MJ218','17/MAR/2017','C','R0','Release','Nagalakshmi');
+insert into Schedule values('CHN36','MJ218','17/MAR/2017','D','R0','Release','Nagalakshmi');
+
+
+
+
+
+insert into Schedule values('CHN36','MJ219','06/FEB/2017','A','ILP01','Induction: Welcome to TCS / ILP','ILP Head' );
+insert into Schedule values('CHN36','MJ219','06/FEB/2017','B','ILP01','Induction','ILPHead');
+insert into Schedule values('CHN36','MJ219','06/FEB/2017','C','ILP01','Induction','ILPHead');
+insert into Schedule values('CHN36','MJ219','06/FEB/2017','D','IRA53209','IRA','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','07/FEB/2017','A','ISU01','ISU1 - TCS Overview:','ISU Mentor');
+insert into Schedule values('CHN36','MJ219','07/FEB/2017','B','TCF01','TCS Corporate Functions','ILP team');
+insert into Schedule values('CHN36','MJ219','07/FEB/2017','C','7408','iSecurity','Swaminadhan');
+insert into Schedule values('CHN36','MJ219','07/FEB/2017','D','HSE01','HSE - Safety + video','HSE Team');
+
+insert into Schedule values('CHN36','MJ219','08/FEB/2017','A','IND01','HR Induction - Part 1','HR');
+insert into Schedule values('CHN36','MJ219','08/FEB/2017','B','ILT','Curriculum and delivery walk through','SF');
+insert into Schedule values('CHN36','MJ219','08/FEB/2017','C','52405','Professional Transformation-Induction to BizS and V&B (Part 1)','Isaac');
+insert into Schedule values('CHN36','MJ219','08/FEB/2017','D','52405','Professional Transformation-Induction to BizSkills and V&B (Part 2)','Isaac');
+
+insert into Schedule values('CHN36','MJ219','09/FEB/2017','A','52367','Core Java Basics-IT Applications Overview Problem Solving approach, OOP Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/FEB/2017','B','52367','Core Java Basics-Numeric computations','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/FEB/2017','C','52367','Core Java Basics-Classes and Objects','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/FEB/2017','D','52367','Core Java Basics-Classes and Objects','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','10/FEB/2017','A','52367','Core Java Basics-Classes and Objects','Rasmi');
+insert into Schedule values('CHN36','MJ219','10/FEB/2017','B','52367','Core Java Basics-Classes and Objects','Rasmi');
+insert into Schedule values('CHN36','MJ219','10/FEB/2017','C','52401','SS 1-Diagnostics','Isaac');
+insert into Schedule values('CHN36','MJ219','10/FEB/2017','D','52401','SS-Diagnostics','Isaac');
+
+insert into Schedule values('CHN36','MJ219','13/FEB/2017','A','52367','Core Java Basics-Conditional Operations','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/FEB/2017','B','52367','Core Java Basics-Arrays and Iterations','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/FEB/2017','C','52368','Core Java Basics-String and Stringbuilder','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/FEB/2017','D','52368','Core Java Basics-Inheritance','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','14/FEB/2017','A','52368','Core Java Basics-Inheritance','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/FEB/2017','B','52368','Core Java Basics-Polymorphism','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/FEB/2017','C','52368','Core Java Basics-Exception Handling-Theory','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/FEB/2017','D','52368','Core Java Basics-Class Relationships (Videos)','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','15/FEB/2017','A','52368','Core Java Basics-Collections-ArrayList','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/FEB/2017','B','52368','Core Java Basics-Collections-ArrayList','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/FEB/2017','C','52368','Core Java Basics-Collections-ArrayList','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/FEB/2017','D','52934','Core Java  Basics-iASCERT Assessment','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','16/FEB/2017','A','52368','Core Java Basics Feedback and Remedial identification','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/FEB/2017','B','52368','Core Java Intermediate-Collections-ArrayList','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/FEB/2017','C','52368','Core Java Intermediate-Collections-ArrayList','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/FEB/2017','D','52368','Core Java Intermediate-Collections-ArrayList','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','17/FEB/2017','A','52368','Core Java Intermediate-Exception Handling/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/FEB/2017','B','52368','Core Java Intermediate-Exception Handling/CS Remedial ','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/FEB/2017','C','52368','Core Java Intermediate-File I/O/CS Remedial ','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/FEB/2017','D','52403','PG 1-Smart dressing & Common courtesies','Isaac');
+
+insert into Schedule values('CHN36','MJ219','20/FEB/2017','A','52368','Core Java Intermediate-File I/O/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/FEB/2017','B','52369','Information Management Basics-Normalization,Connecting to server from client/CS Remedial ','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/FEB/2017','C','52369','Information Management Basics-SQL Concepts on DDL,SQL Data Types/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/FEB/2017','D','52401','SS: Phonetics,Stress,Accent,Intonation','Isaac');
+
+insert into Schedule values('CHN36','MJ219','21/FEB/2017','A','52369','Information Management Basics-DRL including aggregate functions,Joins/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/FEB/2017','B','52369','Information Management Basics-Joins, Sub Queries/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/FEB/2017','C','52369','Information Management Basics-DCL,TCL/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/FEB/2017','D','ISU01','ISU 2','ISU Mentor');
+
+insert into Schedule values('CHN36','MJ219','22/FEB/2017','A','52369','Information Management Basics-Primary Key Generation Techniques/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/FEB/2017','B','52369','Information Management Basics-XML,XSD,XML Namespace/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/FEB/2017','C','52369','JDBC-JDBC Architecture,JDBC Drivers/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/FEB/2017','D','52402','WS2-Characteristics of Writing','Isaac');
+
+insert into Schedule values('CHN36','MJ219','23/FEB/2017','A','52369','JDBC-Important Interfaces and Classes in JDBC API,JDBC steps using Type 4 Driver,
+Exception Handling in JDBC/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/FEB/2017','B','52369','JDBC-Inserting Data,Reading Data/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/FEB/2017','C','52369','JDBC-Reading data/CS Remedial','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/FEB/2017','D','52404','Team Work Skills–1','Isaac');
+
+insert into Schedule values('CHN36','MJ219','24/FEB/2017','A','52369','JDBC-Reading data/CS Remedial ','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/FEB/2017','B','52369','JDBC-Update and delete data/CS Remedial Closure/LAP identification','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/FEB/2017','C','52935','IM JDBC Assessment+Quiz','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/FEB/2017','D','10447','TCoC','Self-Study');
+
+insert into Schedule values('CHN36','MJ219','27/FEB/2017','A','56368','Core Java Advanced-Collections-Set','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/FEB/2017','B','56368','Core Java Advanced-Collections - Set','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/FEB/2017','C','56368','Core Java Advanced-Collections - Map','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/FEB/2017','D','7408','iSecurity WBT','Self-Study');
+
+insert into Schedule values('CHN36','MJ219','28/FEB/2017','A','52368','Java Trainee Talk-PS2 topics','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/FEB/2017','B','52368','Java Trainee Talk-PS2 topics','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/FEB/2017','C','52370','SVN and synchronization(ILT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/FEB/2017','D','52370','SVN and synchronization(ILT)','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','01/MAR/2017','A','52370','Web Server and Servlets-Course Overview,Session 1','Rasmi');
+insert into Schedule values('CHN36','MJ219','01/MAR/2017','B','52370','Web Server and Servlets-Session 2','Rasmi');
+insert into Schedule values('CHN36','MJ219','01/MAR/2017','C','52370','Web Server and Servlets - Session 3','Rasmi');
+insert into Schedule values('CHN36','MJ219','01/MAR/2017','D','52401','SS: Introduction to presentation skills','Isaac');
+
+insert into Schedule values('CHN36','MJ219','02/MAR/2017','A','52370','Web Server and Servlets-Session 4','Rasmi');
+insert into Schedule values('CHN36','MJ219','02/MAR/2017','B','52370','Web Server and Servlets-Session 5','Rasmi');
+insert into Schedule values('CHN36','MJ219','02/MAR/2017','C','52370','Web Server and Servlets-Session 6','Rasmi');
+insert into Schedule values('CHN36','MJ219','02/MAR/2017','D','6852','Software Security Assurance','Self Study');
+
+insert into Schedule values('CHN36','MJ219','03/MAR/2017','A','52370','Web Server and Servlets-Session 7','Rasmi');
+insert into Schedule values('CHN36','MJ219','03/MAR/2017','B','52370','Web Server and Servlets-Session 8','Rasmi');
+insert into Schedule values('CHN36','MJ219','03/MAR/2017','C','52370','JSP-Basic Syntax, Implicit Objects in JSP','Rasmi');
+insert into Schedule values('CHN36','MJ219','03/MAR/2017','D','52144','Introduction to Processes@TCS ','Self Study');
+
+insert into Schedule values('CHN36','MJ219','06/MAR/2017','A','52370','JSP-Handling Multiple JSP','Rasmi');
+insert into Schedule values('CHN36','MJ219','06/MAR/2017','B','52370','JSP-JSP Exception Handling','Rasmi');
+insert into Schedule values('CHN36','MJ219','06/MAR/2017','C','52370','JSP-JSP Usebean Tag','Rasmi');
+insert into Schedule values('CHN36','MJ219','06/MAR/2017','D','ISU01','ISU 3','ISU Mentor');
+
+insert into Schedule values('CHN36','MJ219','07/MAR/2017','A','52370','Servlets,JSP Assessment+MCQ','Rasmi');
+insert into Schedule values('CHN36','MJ219','07/MAR/2017','B','52370','Servlets,JSP Assessment+MCQ','Rasmi');
+insert into Schedule values('CHN36','MJ219','07/MAR/2017','C','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','07/MAR/2017','D','52144','Project Lifecycle Processes','Self-Study');
+
+insert into Schedule values('CHN36','MJ219','08/MAR/2017','A','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','08/MAR/2017','B','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','08/MAR/2017','C','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','08/MAR/2017','D','52402','WS3 - Mechanics of Writing','Isaac');
+
+insert into Schedule values('CHN36','MJ219','09/MAR/2017','A','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/MAR/2017','B','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/MAR/2017','C','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','09/MAR/2017','D','52401','SS: Conversational Skills','Isaac');
+
+insert into Schedule values('CHN36','MJ219','10/MAR/2017','A','52370','JSON and API Basics','Rasmi');
+insert into Schedule values('CHN36','MJ219','10/MAR/2017','B','52370','JSON and API  Quiz','Rasmi');
+insert into Schedule values('CHN36','MJ219','10/MAR/2017','C','52939','PRA Viva - PS, IM, Web','Rasmi');
+insert into Schedule values('CHN36','MJ219','10/MAR/2017','D','52409','BizConnect-1','Isaac');
+
+insert into Schedule values('CHN36','MJ219','13/MAR/2017','A','62889','Pre Game-Introduction session+Capsules 1-3','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/MAR/2017','B','62889','Pre Game-Group Formation+Case Study overview','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/MAR/2017','C','62889','Pre Game-Case Study Overview contd+Capsules 4-6','Rasmi');
+insert into Schedule values('CHN36','MJ219','13/MAR/2017','D','52402','WS4-Mind Your Language','Isaac');
+
+insert into Schedule values('CHN36','MJ219','14/MAR/2017','A','SP628','Sprint 1:Sprint Planning Part 1*
+PO','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/MAR/2017','B','SP628','Sprint 1:Sprint Planning Part 2*
+DT','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/MAR/2017','C','SP628','Sprint 1:Sprint Planning Part 2*
+DT','Rasmi');
+insert into Schedule values('CHN36','MJ219','14/MAR/2017','D','52402','WS5-Email Etiquette&WS6-Mail Application and IM Module','Isaac');
+
+insert into Schedule values('CHN36','MJ219','15/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/MAR/2017','C','SP628','Sprint 1:Sprint Execution','Rasmi');
+insert into Schedule values('CHN36','MJ219','15/MAR/2017','D','52401','SS: Listening skills & SS: Audience Orientation','Isaac');
+
+insert into Schedule values('CHN36','MJ219','16/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Rasmi');
+insert into Schedule values('CHN36','MJ219','16/MAR/2017','D','52402','WS7-Writing at Work- PSR and MoM','Isaac');
+
+insert into Schedule values('CHN36','MJ219','17/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Rasmi');
+insert into Schedule values('CHN36','MJ219','17/MAR/2017','D','52403','PG 2- Telephone etiquette','Isaac');
+
+insert into Schedule values('CHN36','MJ219','20/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)+Mid Sprint Review','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)+Mid Sprint Review','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Rasmi');
+insert into Schedule values('CHN36','MJ219','20/MAR/2017','D','L101','Learning Opportunities','Rasmi');
+
+insert into Schedule values('CHN36','MJ219','21/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Rasmi');
+insert into Schedule values('CHN36','MJ219','21/MAR/2017','D','52404','Team Work Skills – 2','Isaac');
+
+insert into Schedule values('CHN36','MJ219','22/MAR/2017','A','SP628','Sprint 1:Sprint Execution (DSUP +DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/MAR/2017','B','SP628','Sprint 1:Sprint Execution (DBT)','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/MAR/2017','C','SP628','Sprint 1:Sprint Execution(DBT+SBLog updt+Scrumboard updt)','Rasmi');
+insert into Schedule values('CHN36','MJ219','22/MAR/2017','D','52401','SS:Business Speech Acts','Isaac');
+
+insert into Schedule values('CHN36','MJ219','23/MAR/2017','A','SP628','Sprint 1:Sprint Review (demo)','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/MAR/2017','B','SP628','Sprint 1:Sprint Review (demo) contd.','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/MAR/2017','C','SP628','Sprint 1:Sprint Retrospective+
+Capsule 7+Agile Quiz','Rasmi');
+insert into Schedule values('CHN36','MJ219','23/MAR/2017','D','52401','SS:Customer Service','Isaac');
+
+insert into Schedule values('CHN36','MJ219','24/MAR/2017','A','H5990','Hibernate-Overview,Hibernate Environment Setup','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/MAR/2017','B','H5990','Hibernate-Hibernate Basic API','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/MAR/2017','C','52144','Knowledge Management','Rasmi');
+insert into Schedule values('CHN36','MJ219','24/MAR/2017','D','52409','BizConnect-2','Isaac');
+
+insert into Schedule values('CHN36','MJ219','27/MAR/2017','A','H5990','Hibernate-Hibernate Basic API','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/MAR/2017','B','H5990','Hibernate-Hibernate Basic API','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/MAR/2017','C','H5990','Hibernate-Hibernate Basic O/R Mapping and CRUD','Rasmi');
+insert into Schedule values('CHN36','MJ219','27/MAR/2017','D','H5990','Hibernate-Hibernate Basic O/R Mapping and CRUD','Rasmi');				
+
+insert into Schedule values('CHN36','MJ219','28/MAR/2017','A','H5990','Hibernate-Hibernate Object States','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/MAR/2017','B','H5990','Hibernate-Hibernate Object States, HQL','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/MAR/2017','C','H5990','Hibernate-Hibernate Object States, HQL','Rasmi');
+insert into Schedule values('CHN36','MJ219','28/MAR/2017','D','7408','iSecurity Quiz','Rasmi');				
+
+insert into Schedule values('CHN36','MJ219','29/MAR/2017','A','H5990','Change Request-Applying Hibernate Layer','Rasmi');
+insert into Schedule values('CHN36','MJ219','29/MAR/2017','B','H5990','Change Request-Applying Hibernate Layer','Rasmi');
+insert into Schedule values('CHN36','MJ219','29/MAR/2017','C','H5990','Change Request-Applying Hibernate Layer','Rasmi');
+insert into Schedule values('CHN36','MJ219','29/MAR/2017','D','H5990','Change Request-Applying Hibernate Layer','Rasmi');				
+
+insert into Schedule values('CHN36','MJ219','30/MAR/2017','A','52144','Introduction to Financial planning','HR');
+insert into Schedule values('CHN36','MJ219','30/MAR/2017','B','52144','CR Review','HR');
+insert into Schedule values('CHN36','MJ219','30/MAR/2017','C','IND01','HR-induction-Part 2+HR quiz ','HR');
+insert into Schedule values('CHN36','MJ219','30/MAR/2017','D','RMG01','RMG Session','RMG Team');	
+	
+insert into Schedule values('CHN36','MJ219','31/MAR/2017','A','R0','Release','HR');
+insert into Schedule values('CHN36','MJ219','31/MAR/2017','B','R0','Release','HR');
+insert into Schedule values('CHN36','MJ219','31/MAR/2017','C','R0','Release','HR');
+insert into Schedule values('CHN36','MJ219','31/MAR/2017','D','R0','Release','RMG Team');
+
+select BATCH,  LG ,SCH_DATE, SLOT,COURSE_ID, COURSE_NAME,FACULTY from Schedule where SCH_DATE='30/JAN/2017' and  LG='MJ215' and BATCH='CHN35' ;            
+select BATCH,  LG ,SCH_DATE, SLOT,COURSE_ID, COURSE_NAME,FACULTY from Schedule where SCH_DATE='30/JAN/2017'

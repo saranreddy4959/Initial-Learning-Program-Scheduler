@@ -1,0 +1,49 @@
+body{
+background-color:#3a85c6;
+}
+@font-face {
+    font-family:header;
+    src: url(../fonts/GOTHIC.ttf);
+}
+.header-text{
+	color:white;
+	font-family:header;
+font-size:40px;
+}
+.inputs{
+font-family:header;
+color:white;
+position:absolute;
+left:40%;
+}
+.input_two{
+font-family:header;
+color:white;
+position:absolute;
+left:30%;
+}
+.date tr td select{
+border-radius:10px;
+padding:10px;
+}
+.inputs tr td select,input{
+border-radius:15px;
+padding:10px;
+}
+.input_two tr td input{
+border-radius:15px;
+padding:10px;
+}
+.size{
+ background-color: #BFB7B7;
+    border: none;
+border-radius:15px;
+    color: white;
+    padding: 11px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
